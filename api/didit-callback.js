@@ -7,8 +7,6 @@ export default async function handler(req, res) {
 
   console.log("✅ DIDIT Webhook Received:");
   console.log(JSON.stringify(data, null, 2));
-    //console.log(req.query);
-	//console.log(req.params);
 
   // TODO: You can later save this to a DB or send to email/Slack/etc.
 
